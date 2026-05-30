@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Detection System</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+<div class="background-glow"></div>
+
+<nav class="navbar">
+    <div class="logo">
+        📰 Fake News AI
+    </div>
+
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Analytics</a>
+        <a href="#">About</a>
+    </div>
+</nav>
+
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <h1>
+            Detect Fake News with AI
+        </h1>
+
+        <p>
+            Analyze news articles using machine learning,
+            NLP, and intelligent classification algorithms.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="prediction-card">
+
+    <h2>Analyze News</h2>
+
+    <form action="/predict" method="POST">
+
+        <label>
+            Paste News Content
+        </label>
+
+        <textarea
+            name="news"
+            placeholder="Paste complete news article here...">
+        </textarea>
+
+        <div class="divider">
+            OR
+        </div>
+
+        <label>
+            Paste News URL
+        </label>
+
+        <input
+            type="text"
+            name="url"
+            placeholder="https://example.com/news">
+
+        <button type="submit">
+            Analyze News
+        </button>
+
+    </form>
+
+</section>
+
+
+<section class="features">
+
+    <div class="feature-card">
+        <h3>🤖 AI Powered</h3>
+        <p>
+            Uses NLP and machine learning
+            to identify misinformation.
+        </p>
+    </div>
+
+    <div class="feature-card">
+        <h3>📊 High Accuracy</h3>
+        <p>
+            Trained using multiple
+            classification models.
+        </p>
+    </div>
+
+    <div class="feature-card">
+        <h3>🔗 URL Verification</h3>
+        <p>
+            Analyze live news articles
+            directly from URLs.
+        </p>
+    </div>
+
+</section>
+
+
+<footer>
+    Fake News Detection System | Final Year Project
+</footer>
+
+</body>
+</html>
