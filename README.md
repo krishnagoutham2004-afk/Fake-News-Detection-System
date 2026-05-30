@@ -133,9 +133,10 @@ http://127.0.0.1:5000
 Add screenshots of:
 
 * Homepage UI
-* Prediction Result Page
-* Analytics Dashboard
+  <img width="1208" height="1965" alt="homepage" src="https://github.com/user-attachments/assets/1b5979c4-a15b-4595-8652-eb5df7632ed7" />
 
+* Prediction Result Page
+  <img width="1208" height="1115" alt="prediction" src="https://github.com/user-attachments/assets/6e9bfec0-bac5-48d9-8de9-d572d0367a3f" />
 ---
 
 ## Future Improvements
